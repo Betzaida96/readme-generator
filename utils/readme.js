@@ -1,7 +1,7 @@
-//create a function that returns a licnese badge from the license you pick
+//creates a function that returns a licnese badge from the license you pick
 function renderLicensesBadge(licenses) {
     if (licenses !== "none") {
-        return `[![Gitbub license] (https://img.shields.io/badge/License-${licenses}-blue)]`;
+        return `![GitHub license](https://img.shields.io/badge/License-${licenses}-blue.svg)`;
     }
     return "";
 }
@@ -38,9 +38,13 @@ ${data.usage}
 ## Contributions
 ${data.contributions}
 
+## License
+License used: ${data.licenses}
+
 ## Questions
-If you have any questions, feel free to reach out to <a href="mailto:${data.email}">${data.email}</a> or find me on GitHub at <a href="https://github.com/${data.username}">${data.username}</a>.
+If you have any questions, feel free to reach out to ${data.name} at <a href="mailto:${data.email}">${data.email}</a> or <a href="https://github.com/${data.username}">${data.username}</a>.
 `;
 }
 
+//This exports the generateREADME function so that it can be used in other files/modules.
 module.exports = generateREADME;

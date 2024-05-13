@@ -1,8 +1,8 @@
-# wa
-[![Gitbub license] (https://img.shields.io/badge/License-MIT-blue)]
+# ye
+![GitHub license](https://img.shields.io/badge/License-BSD 3-blue.svg)
 
 ## Description
-weffe
+gerd
 
 
 ## Table of Contents
@@ -14,16 +14,19 @@ weffe
 
 
 ## Installation
-wef
+erag
 
 ## Tests
-weaf
+ewf
 
 ## Usage
-wae
+fea
 
 ## Contributions
-few
+grea
+
+## License
+License used: BSD 3
 
 ## Questions
-If you have any questions, feel free to reach out to <a href="mailto:wea">wea</a> or find me on GitHub at <a href="https://github.com/eag">eag</a>.
+If you have any questions, feel free to reach out to Betzaida Taylor at <a href="mailto:rerg">rerg</a> or <a href="https://github.com/eaw">eaw</a>.

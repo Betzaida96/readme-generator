@@ -1,12 +1,17 @@
-//setting up const require variables for inquirer and fs
+//setting up const require variables for inquirer, fs, generateREADME, and path
 const inquirer = require('inquirer');
 const fs = require('fs');  
 const generateREADME = require("./utils/readme");
 const path = require("path");
 
-//inquirer questions
+//inquirer questions that will promt the user to input answers in the command line
 inquirer
   .prompt([
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What is your name',
+    },
     {
       type: 'input',
       name: 'project',
@@ -53,7 +58,7 @@ inquirer
       message: 'What does the user need to know about contributing to the repo?',
     },
 
-    //generating response 
+    //this will generate the response in the command line once the user answers all required prompts
   ]).then((response) => {
     const readmeContent = generateREADME(response)
     console.log(readmeContent)
